@@ -1,3 +1,4 @@
 resources/
 db.sqlite3
 Pipfile
+internal_readme.txt

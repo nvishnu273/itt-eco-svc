@@ -1,4 +1,4 @@
-### 1. Install django in the virtual environment (C:\Users\navin.v.i.ASSYST-COC\.virtualenvs\itt-eco-svc-pT2phE5C)
+### 1. Install django in the virtual environment
 ## pipenv install django (Install pipenv before this pip install pipenv)
 ### Run the below command to activates the virtual environment associated with your Django project
 ### 2. pipenv shell
