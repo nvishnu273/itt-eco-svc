@@ -74,13 +74,23 @@ WSGI_APPLICATION = "itt_eco_svc_proj.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
 
+DATABASES = {
+   'default': {
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'itt_eco_svc_dev',
+       'USER': '<database_username>',
+       'PASSWORD': '<password>',
+       'HOST': '<database_hostname_or_ip>',
+       'PORT': '<database_port>',
+   }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

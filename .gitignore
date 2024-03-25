@@ -2,3 +2,5 @@ resources/
 db.sqlite3
 Pipfile
 internal_readme.txt
+db_scripts/setup_script.sql
+itt_eco_svc_proj/settings.py
