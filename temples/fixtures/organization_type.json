@@ -1,0 +1,23 @@
+[
+    {
+      "model": "temples.organizationtype",
+      "pk": 1,
+      "fields": {
+        "title": "Temple"
+      }
+    },
+    {
+      "model": "temples.organizationtype",
+      "pk": 2,
+      "fields": {
+        "title": "Church"
+      }
+    },
+    {
+      "model": "temples.organizationtype",
+      "pk": 3,
+      "fields": {
+        "title": "Mosque"
+      }
+    }
+  ]
